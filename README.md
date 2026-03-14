@@ -4,9 +4,10 @@ This project implements a manufacturing defect detection system using computer v
 
 ## Team Members
 
-- John Doe (Project Lead)
-- Jane Smith (ML Engineer)
-- Alice Johnson (Data Scientist)
+- John Harold D. Doton
+- DeCastro Juan Carlo
+- Eriel Ben Baguio
+- Karl Shane Bernarte
 
 ## Project Structure
 
@@ -36,13 +37,7 @@ models/         # Saved model checkpoints
    cd manufacturing-defect-detection
    ```
 
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
