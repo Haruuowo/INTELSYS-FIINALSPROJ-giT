@@ -1,0 +1,19 @@
+name: defect-detection
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - opencv-python
+    - scikit-learn
+    - matplotlib
+    - numpy
+    - pandas
+    - Pillow
+    - tqdm
+    - albumentations
