@@ -4,10 +4,10 @@ This project implements a manufacturing defect detection system using computer v
 
 ## Team Members
 
-- John Harold D. Doton
-- DeCastro Juan Carlo
-- Eriel Ben Baguio
-- Karl Shane Bernarte
+- Doton, John Harold D.
+- De Castro, Juan Carlo C.
+- Baguio, Eriel Ben L.
+- Bernarte, Karl Shane Y.
 
 ## Project Structure
 
