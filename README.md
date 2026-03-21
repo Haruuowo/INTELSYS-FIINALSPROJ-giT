@@ -21,6 +21,8 @@ src/            # Source code
   ├── utils/    # Utility functions
   └── training/ # Training scripts
 notebooks/      # Jupyter notebooks for experimentation
+experiments/    # Experiment results and metrics
+  └── results/  # PNG images and JSON metrics files
 models/         # Saved model checkpoints
 ```
 
@@ -48,6 +50,22 @@ If you prefer using conda:
 conda env create -f environment.yml
 conda activate defect-detection
 ```
+
+## Tutorial
+
+### Getting Started with Notebooks
+1. Navigate to the `notebooks/` folder.
+2. Open any `.ipynb` file in Jupyter Notebook or JupyterLab.
+3. Follow the cells to run experiments.
+
+### Running Experiments
+1. Place your experiment scripts in appropriate folders.
+2. Save results (PNG images and JSON metrics) in `experiments/results/`.
+3. For RL agent experiments, ensure `rl_metrics.json` and `cnn_metrics.json` are saved there.
+
+### Viewing Results
+- Check `experiments/results/` for output images and metrics files.
+- Use notebooks to visualize and analyze results.
 
 ## Data Download
 
