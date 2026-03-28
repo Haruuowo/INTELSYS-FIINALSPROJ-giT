@@ -116,3 +116,6 @@ data/raw/
 data/processed/
 models/*.pt
 *.zip
+
+# Kaggle credentials
+kaggle.json
