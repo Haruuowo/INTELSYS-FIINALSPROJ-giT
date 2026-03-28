@@ -1,0 +1,19 @@
+NLP Scaffold — Macro F1 Log
+========================================
+Test Macro F1   : 0.9048
+CV Mean F1      : 0.9573
+CV Std F1       : 0.0853
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       crack       0.75      1.00      0.86         3
+     scratch       1.00      1.00      1.00         2
+        dent       1.00      1.00      1.00         3
+        hole       1.00      1.00      1.00         3
+        good       1.00      0.50      0.67         2
+
+    accuracy                           0.92        13
+   macro avg       0.95      0.90      0.90        13
+weighted avg       0.94      0.92      0.92        13
+

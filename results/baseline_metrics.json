@@ -1,0 +1,26 @@
+[
+  {
+    "model":"Random Forest",
+    "train_time_s":0.34,
+    "val_accuracy":0.9779,
+    "val_macro_f1":0.9327,
+    "val_f1_positive":0.9879,
+    "val_false_alarm_rate":0.0,
+    "test_accuracy":0.9797,
+    "test_macro_f1":0.9377,
+    "test_f1_positive":0.9889,
+    "test_false_alarm_rate":0.0
+  },
+  {
+    "model":"SVM (RBF)",
+    "train_time_s":1.89,
+    "val_accuracy":0.9926,
+    "val_macro_f1":0.9758,
+    "val_f1_positive":0.996,
+    "val_false_alarm_rate":0.0,
+    "test_accuracy":0.9871,
+    "test_macro_f1":0.9588,
+    "test_f1_positive":0.993,
+    "test_false_alarm_rate":0.0
+  }
+]

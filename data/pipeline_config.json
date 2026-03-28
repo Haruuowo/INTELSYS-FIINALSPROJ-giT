@@ -1,0 +1,36 @@
+{
+  "dataset": "Manufacturing Defect Detection \u2014 combined sources",
+  "sources": {
+    "Positive": [
+      "C:\\Users\\Username\\Downloads\\archive\\Bridge_Crack_Image\\DBCC_Training_Data_Set\\train",
+      "C:\\Users\\Username\\Downloads\\archive\\Bridge_Crack_Image\\DBCC_Training_Data_Set\\val",
+      "C:\\Users\\Username\\Downloads\\archive\\CrackForest\\image",
+      "C:\\Users\\Username\\Downloads\\archive\\Magnetic-Tile-Defect\\MT_Blowhole",
+      "C:\\Users\\Username\\Downloads\\archive\\Magnetic-Tile-Defect\\MT_Break",
+      "C:\\Users\\Username\\Downloads\\archive\\Magnetic-Tile-Defect\\MT_Crack",
+      "C:\\Users\\Username\\Downloads\\archive\\Magnetic-Tile-Defect\\MT_Fray",
+      "DeepPCB group subfolders (non _not)"
+    ],
+    "Negative": [
+      "C:\\Users\\Username\\Downloads\\archive\\Magnetic-Tile-Defect\\MT_Free\\Imgs",
+      "DeepPCB group subfolders (_not)"
+    ]
+  },
+  "target_size": [
+    227,
+    227
+  ],
+  "normalize": true,
+  "norm_range": "[0, 1] \u2014 divide by 255",
+  "split": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "stratified": true,
+  "seed": 42,
+  "classes": {
+    "0": "Negative",
+    "1": "Positive"
+  }
+}
